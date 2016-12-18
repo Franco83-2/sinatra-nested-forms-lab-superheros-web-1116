@@ -1,3 +1,12 @@
-
-
-
+Team Name:
+<%=@team[:name]%>
+Team Motto:
+<%=@team[:motto]%>
+<%@members.each do |member|%>
+Hero Name:
+<%=member.name%>
+Hero Power:
+<%=member.power%>
+Hero Biography:
+<%=member.bio%>
+<%end%>
